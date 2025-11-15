@@ -1,4 +1,5 @@
 📌 주요 기능별 API/URL 목록
+
 📚 도서/메인/기타
 메인 페이지 & 도서 목록 조회(검색 포함)	GET	/ , /books
 도서 상세 조회	GET	/books/{id}
@@ -7,6 +8,7 @@
 고객센터/FAQ	GET	/faq
 
 👤 회원 / 인증
+
 로그인 폼	GET	/member/loginform
 로그인 처리	POST	/member/login
 로그아웃	GET	/member/logout
@@ -17,12 +19,14 @@
 내 정보 수정 처리	POST	/member/editinfo
 
 🛒 장바구니
+
 장바구니 페이지	GET	/cart
 상품 추가	POST	/cart/add
 수량 변경	POST	/cart/update
 상품 제거	POST	/cart/remove
 
 💳 주문 / 결제
+
 단일 상품 바로 구매	POST	/orders/buyNow
 장바구니 결제하기	POST	/orders/checkout
 결제 정보 확인 페이지	GET	/orders/payment
@@ -30,7 +34,9 @@
 내 주문 내역 조회	GET	/orders/member/orderlist
 
 👑 관리자 기능 (ADMIN)
+
 📘 도서 관리
+
 도서 목록 & 통계	GET	/admin/books
 도서 추가 폼	GET	/admin/addbook
 도서 추가 처리	POST	/admin/save
@@ -41,6 +47,7 @@
 리뷰 삭제	POST	/admin/reviews/delete
 
 👥 회원 관리
+
 회원 목록 & 통계	GET	/admin/adminmemberlist
 회원 수정 폼	GET	/admin/adminmemberlist/edit?userId={userId}
 회원 수정 처리	POST	/admin/adminmemberlist/update
