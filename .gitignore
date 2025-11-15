@@ -1,0 +1,7 @@
+.settings/
+.project
+.classpath
+shoppingDB.txt
+Users/
+.idea/
+*.iml
